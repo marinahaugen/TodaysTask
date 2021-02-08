@@ -13,7 +13,9 @@ public class Book extends LibraryItem {
     }
 
     public String toString () {
-        return String.format("%d: %s - %s - %s\n", itemId, title, author, genre);
+        // ANDY: Simlpified bt calling super.toString().
+        // return String.format("%d: %s - %s - %s\n", itemId, title, author, genre);
+        return String.format("%s - %s - %s\n", super.toString(), author, genre);
     }
 
 }
