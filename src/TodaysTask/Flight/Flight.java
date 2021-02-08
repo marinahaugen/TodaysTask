@@ -24,4 +24,13 @@ public abstract class Flight {
         return "-1";
     }
 
+    @Override
+    public String toString() {
+        return "Flight{" +
+                "flightCode='" + flightCode + '\'' +
+                ", fromTo='" + fromTo + '\'' +
+                ", departureTime='" + departureTime + '\'' +
+                ", flightDuration=" + flightDuration +
+                '}';
+    }
 }
