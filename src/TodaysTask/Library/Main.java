@@ -1,4 +1,4 @@
-package TodaysTask;
+package TodaysTask.Library;
 
 public class Main {
 

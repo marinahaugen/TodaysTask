@@ -1,0 +1,27 @@
+package TodaysTask.Flight;
+
+import java.util.Calendar;
+
+public abstract class Flight {
+
+    String flightCode;
+    String fromTo;
+    String departureTime;
+    int flightDuration;
+
+    public Flight(String flightCode, String fromTo, String departureTime, int flightDuration) {
+        this.flightCode = flightCode;
+        this.fromTo = fromTo;
+        this.departureTime = departureTime;
+        this.flightDuration = flightDuration;
+    }
+
+    public String getFlightCode (){
+        return this.flightCode;
+    }
+
+    public String checkInBefore () {
+        return "-1";
+    }
+
+}

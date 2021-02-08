@@ -1,9 +1,10 @@
-package TodaysTask;
+package TodaysTask.Library;
 
 public class Book extends LibraryItem {
 
     private String author;
     private String genre;
+
 
     public Book (String title, int id, String author, String genre) {
         super(title, id);

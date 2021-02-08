@@ -1,4 +1,4 @@
-package TodaysTask;
+package TodaysTask.Library;
 
 public abstract class LibraryItem {
 
